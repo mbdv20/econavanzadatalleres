@@ -1,0 +1,24 @@
+{
+\def\sym#1{\ifmmode^{#1}\else\(^{#1}\)\fi}
+\begin{tabular}{l*{2}{c}}
+\hline\hline
+                &&\multicolumn{1}{c}&\multicolumn{2}{c}Recibió resultados de VIH         &                  \\
+                &\multicolumn{1}{c}{(1)}         &\multicolumn{1}{c}{(2)}         \\
+                &     b/se         &     b/se         \\
+\hline
+Recibió incentivos económicos&    0.437\sym{***}&    0.415\sym{***}\\
+                &  [0.024]         &  [0.044]         \\
+Efectos heterogéneos por sexo&                  &    0.027         \\
+                &                  &  [0.044]         \\
+Efectos heterogéneos por distancia (<1.5 km)&                  &   -0.018         \\
+                &                  &  [0.020]         \\
+Efectos heterogéneos por educación (>2 años)&                  &    0.004         \\
+                &                  &  [0.005]         \\
+Controles demográficos&      Sí         &      Sí         \\
+Efecto fijo por municipio &       No         &       No         \\
+\hline
+Observaciones   &     2538         &     2538         \\
+\hline\hline
+\multicolumn{3}{l}{\footnotesize Errores estandar clusterizados por aldeas. \sym{*} \(p<0.1\), \sym{**} \(p<0.05\), \sym{***} \(p<0.01\)}}\\
+\end{tabular}
+}

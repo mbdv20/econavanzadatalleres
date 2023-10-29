@@ -1,4 +1,4 @@
-*Taller 2: Punto 1
+*Taller 3
 
 clear all
 cap log close
@@ -24,19 +24,19 @@ if "`c(username)'"=="andresmolano" {
  2: Secondary Paths
 ==============================================================================*/
 * Output
-global taller   "${git}/2"
+global taller   "${git}/3"
 global do 		"${taller}/do"
 global output	"${taller}/output"
 global data 	"${taller}/data"
 
 
 /*==============================================================================
- 3: Desarrollo Punto 1
+ 3: Desarrollo Punto 2
 ==============================================================================*/
 
 *Cargar datos
 
-use "${data}/P1/vih.dta", clear 
+use "${data}/P2/vih.dta", clear 
 
 **#1a. Diferencia de medias 
 
