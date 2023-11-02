@@ -61,6 +61,9 @@ sum sumapos sumaneg
 
 **#1b. Grafica dispersion
 
-twoway (scatter Y X) (lfit Y X), connect(stepstair)
+twoway (scatter Y X) (lfit Y X), xtitle("")
+, connect(stepstair) 
 
 scatter Y X || lfit Y X ||connect(stepstair)
+
+gr export "${output}/figures/distributions_violmh.jpg", replace as(jpg)
